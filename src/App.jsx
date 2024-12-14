@@ -1,4 +1,6 @@
 import { useState } from "react";
+import loingLoti from "../src/assets/log.svg";
+import registerLoti from "../src/assets/register.svg";
 import "./App.css";
 
 function App() {
@@ -85,7 +87,7 @@ function App() {
               Sign up
             </button>
           </div>
-          <img src="img/log.svg" className="image" alt="Log In" />
+          <img src={registerLoti} className="image" alt="Log In" />
         </div>
 
         <div className="panel right-panel">
@@ -102,7 +104,7 @@ function App() {
               Sign in
             </button>
           </div>
-          <img src="img/register.svg" className="image" alt="Register" />
+          <img src={loingLoti} className="image" alt="Register" />
         </div>
       </div>
     </div>
