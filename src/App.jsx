@@ -5,7 +5,6 @@ import "./App.css";
 
 function App() {
   const [isSignUpMode, setSignUpMode] = useState(false);
-
   return (
     <div className={`container ${isSignUpMode ? "sign-up-mode" : ""}`}>
       <div className="forms-container">
@@ -37,7 +36,6 @@ function App() {
               </a>
             </div>
           </form>
-
           <form action="#" className="sign-up-form">
             <h2 className="title">Sign up</h2>
             <div className="input-field">
@@ -71,7 +69,6 @@ function App() {
           </form>
         </div>
       </div>
-
       <div className="panels-container">
         <div className="panel left-panel">
           <div className="content">
@@ -89,7 +86,6 @@ function App() {
           </div>
           <img src={registerLoti} className="image" alt="Log In" />
         </div>
-
         <div className="panel right-panel">
           <div className="content">
             <h3>One of us?</h3>
@@ -110,5 +106,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
